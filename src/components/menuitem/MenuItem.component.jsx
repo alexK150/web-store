@@ -1,5 +1,4 @@
 import React from 'react';
-
 import './menuitem.styles.scss';
 
 const MenuItem = ({title, imageUrl, size}) => (
@@ -10,7 +9,7 @@ const MenuItem = ({title, imageUrl, size}) => (
                 backgroundImage: `url(${imageUrl})`
             }}
         />
-        <div className='contentBox'>
+        <div className='content-box'>
             <h1 className='title'>{title.toUpperCase()}</h1>
             <span className='subtitle'>SHOP NOW</span>
         </div>

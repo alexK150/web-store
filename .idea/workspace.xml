@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="28191ebc-3086-460b-a8df-2439cb99be95" name="Default Changelist" comment="init v2 refactoring: js-&gt;jsx, style, component">
-      <change afterPath="$PROJECT_DIR$/src/components/mainmenu/main-menu.component.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/mainmenu/mainmenu.styles.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/menuitem/MenuItem.component.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/homepage/homepage.component.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/homepage/homepage.styles.scss" afterDir="false" />
+    <list default="true" id="28191ebc-3086-460b-a8df-2439cb99be95" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/homepage.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/homepage.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/menuitem/menuitem.styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo/logo.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/mainmenu/main-menu.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/mainmenu/main-menu.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/menuitem/MenuItem.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/menuitem/MenuItem.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/menuitem/menuitem.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/menuitem/menuitem.styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -90,7 +88,10 @@
       <workItem from="1565789917933" duration="3967000" />
       <workItem from="1565811380102" duration="1832000" />
       <workItem from="1565869256379" duration="4597000" />
-      <workItem from="1565887675696" duration="742000" />
+      <workItem from="1565887675696" duration="5767000" />
+      <workItem from="1566657533047" duration="1204000" />
+      <workItem from="1568187704410" duration="2182000" />
+      <workItem from="1574420300717" duration="1500000" />
     </task>
     <task id="LOCAL-00001" summary="init v1 web-store">
       <created>1565604854136</created>
@@ -99,7 +100,14 @@
       <option name="project" value="LOCAL" />
       <updated>1565604854136</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="init v2 refactoring: js-&gt;jsx, style, component">
+      <created>1565888535381</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1565888535381</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
