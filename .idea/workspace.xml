@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28191ebc-3086-460b-a8df-2439cb99be95" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/collection-item/CollectionItem.component.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/collection-item/collection-item.styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/shopping.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/header/Header.component.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/header/header.styles.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/preview-collection/PreviewCollection.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/preview-collection/PreviewCollection.component.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/preview-collection/preview-collection.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/preview-collection/preview-collection.styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,7 +29,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/preview-collection" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/header" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="$PROJECT_DIR$/node_modules/eslint" />
@@ -41,10 +41,12 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\FRONT-END\JS\Практика\learnProjects\web-store\src\components\header" />
       <recent name="D:\FRONT-END\JS\Практика\learnProjects\web-store\src\components\preview-collection" />
       <recent name="D:\FRONT-END\JS\Практика\learnProjects\web-store\src\components\collection-item" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\FRONT-END\JS\Практика\learnProjects\web-store\src\assets" />
       <recent name="D:\FRONT-END\JS\Практика\learnProjects\web-store\src\pages\homepage" />
       <recent name="D:\FRONT-END\JS\Практика\learnProjects\web-store\src\components" />
       <recent name="D:\FRONT-END\JS\Практика\learnProjects\web-store\src\logo" />
@@ -98,7 +100,7 @@
       <workItem from="1566657533047" duration="1204000" />
       <workItem from="1568187704410" duration="2182000" />
       <workItem from="1574420300717" duration="4121000" />
-      <workItem from="1574670836890" duration="10097000" />
+      <workItem from="1574670836890" duration="13127000" />
     </task>
     <task id="LOCAL-00001" summary="init v1 web-store">
       <created>1565604854136</created>
@@ -135,7 +137,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574684174674</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="init v6 updated app with CollectionItem Component &amp; PreviewCollection Component">
+      <created>1574687855588</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1574687855588</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,7 +169,8 @@
     <MESSAGE value="init v3 +Routing" />
     <MESSAGE value="init v4 Updated MenuItem navigation by withRouter HOC" />
     <MESSAGE value="init v5 +ShopPage &amp; PreviewCollection components" />
-    <option name="LAST_COMMIT_MESSAGE" value="init v5 +ShopPage &amp; PreviewCollection components" />
+    <MESSAGE value="init v6 updated app with CollectionItem Component &amp; PreviewCollection Component" />
+    <option name="LAST_COMMIT_MESSAGE" value="init v6 updated app with CollectionItem Component &amp; PreviewCollection Component" />
   </component>
   <component name="masterDetails">
     <states>
