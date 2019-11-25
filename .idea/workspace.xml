@@ -2,17 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28191ebc-3086-460b-a8df-2439cb99be95" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/preview-collection/PreviewCollection.component.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/preview-collection/preview-collection.styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/shop/Shop.component.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/shop/shop-data.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/mainmenu/main-menu.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/mainmenu/MainMenu.component.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/menuitem/MenuItem.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/menuitem/MenuItem.component.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/homepage/homepage.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/homepage/Homepage.component.jsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -87,7 +95,7 @@
       <workItem from="1566657533047" duration="1204000" />
       <workItem from="1568187704410" duration="2182000" />
       <workItem from="1574420300717" duration="4121000" />
-      <workItem from="1574670836890" duration="3144000" />
+      <workItem from="1574670836890" duration="6800000" />
     </task>
     <task id="LOCAL-00001" summary="init v1 web-store">
       <created>1565604854136</created>
@@ -110,7 +118,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574422059859</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="init v4 Updated MenuItem navigation by withRouter HOC">
+      <created>1574677657736</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1574677657736</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,7 +148,8 @@
     <MESSAGE value="init v1 web-store" />
     <MESSAGE value="init v2 refactoring: js-&gt;jsx, style, component" />
     <MESSAGE value="init v3 +Routing" />
-    <option name="LAST_COMMIT_MESSAGE" value="init v3 +Routing" />
+    <MESSAGE value="init v4 Updated MenuItem navigation by withRouter HOC" />
+    <option name="LAST_COMMIT_MESSAGE" value="init v4 Updated MenuItem navigation by withRouter HOC" />
   </component>
   <component name="masterDetails">
     <states>
