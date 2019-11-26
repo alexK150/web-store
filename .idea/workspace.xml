@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28191ebc-3086-460b-a8df-2439cb99be95" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/shopping.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/header/Header.component.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/header/header.styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/sign-in/SignIn.component.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/sign-in/sign-in.styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/sign-in-and-sign-up/SignInAndSignUp.component.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/sign-in-and-sign-up/sign-in-and-sign-up.styles.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
     </list>
@@ -100,7 +101,7 @@
       <workItem from="1566657533047" duration="1204000" />
       <workItem from="1568187704410" duration="2182000" />
       <workItem from="1574420300717" duration="4121000" />
-      <workItem from="1574670836890" duration="13127000" />
+      <workItem from="1574670836890" duration="17092000" />
     </task>
     <task id="LOCAL-00001" summary="init v1 web-store">
       <created>1565604854136</created>
@@ -144,11 +145,21 @@
       <option name="project" value="LOCAL" />
       <updated>1574687855588</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="init v7 added Header Component &amp; links to Home Shop page and Home">
+      <created>1574701401335</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1574701401335</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="UpdateCopyrightCheckinHandler">
+    <option name="UPDATE_COPYRIGHT" value="true" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -170,7 +181,8 @@
     <MESSAGE value="init v4 Updated MenuItem navigation by withRouter HOC" />
     <MESSAGE value="init v5 +ShopPage &amp; PreviewCollection components" />
     <MESSAGE value="init v6 updated app with CollectionItem Component &amp; PreviewCollection Component" />
-    <option name="LAST_COMMIT_MESSAGE" value="init v6 updated app with CollectionItem Component &amp; PreviewCollection Component" />
+    <MESSAGE value="init v7 added Header Component &amp; links to Home Shop page and Home" />
+    <option name="LAST_COMMIT_MESSAGE" value="init v7 added Header Component &amp; links to Home Shop page and Home" />
   </component>
   <component name="masterDetails">
     <states>
