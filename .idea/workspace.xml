@@ -3,15 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="28191ebc-3086-460b-a8df-2439cb99be95" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/custom-button/CustomButton.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/custom-button/CustomButton.component.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/custom-button/custom-button.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/custom-button/custom-button.styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/Header.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/Header.component.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/header.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/sign-in/SignIn.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sign-in/SignIn.component.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/sign-in/sign-in.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sign-in/sign-in.styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/firebase/firebase.utilsa.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/firebase/firebase.utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/firebase/firebase.utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/firebase/firebase.utils.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -107,7 +100,7 @@
       <workItem from="1566657533047" duration="1204000" />
       <workItem from="1568187704410" duration="2182000" />
       <workItem from="1574420300717" duration="4121000" />
-      <workItem from="1574670836890" duration="27758000" />
+      <workItem from="1574670836890" duration="30336000" />
     </task>
     <task id="LOCAL-00001" summary="init v1 web-store">
       <created>1565604854136</created>
@@ -193,7 +186,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574848261625</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="init v13 styling Custom button for Google, sign out functionality through header">
+      <created>1574856818993</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1574856818993</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -228,7 +228,8 @@
     <MESSAGE value="init v10 added CustomButton Component &amp; styles for it" />
     <MESSAGE value="init v11 Sign In with Google functionality added" />
     <MESSAGE value="init v12 Authentication with Google account done" />
-    <option name="LAST_COMMIT_MESSAGE" value="init v12 Authentication with Google account done" />
+    <MESSAGE value="init v13 styling Custom button for Google, sign out functionality through header" />
+    <option name="LAST_COMMIT_MESSAGE" value="init v13 styling Custom button for Google, sign out functionality through header" />
   </component>
   <component name="masterDetails">
     <states>
