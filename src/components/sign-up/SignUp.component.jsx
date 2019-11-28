@@ -3,7 +3,7 @@ import FormInput from '../form-input/FormInput.component';
 import CustomButton from '../custom-button/CustomButton.component';
 import {auth, createUserProfileDocument} from '../../firebase/firebase.utils';
 
-import 'sign-up.styles.scss';
+import './sign-up.styles.scss';
 
 class SignUp extends Component {
 
@@ -23,8 +23,8 @@ class SignUp extends Component {
 
         const {displayName, email, password, confirmPassword} = this.state;
 
-        if (password === confirmPassword) {
-            alert('passwords don\'t match')
+        if (password !== confirmPassword) {
+            alert('passwords don\'t match');
             return;
         }
 
@@ -94,7 +94,7 @@ class SignUp extends Component {
                         label='Confirm Password'
                         required
                     />
-                    <CustomButton type='submit'></CustomButton>
+                    <CustomButton type='submit'>SIGN UP</CustomButton>
                 </form>
             </div>
         );
