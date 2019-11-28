@@ -8,9 +8,9 @@ import {auth, createUserProfileDocument} from './firebase/firebase.utils';
 
 import './App.css';
 
-class App extends React.Component{
+class App extends React.Component {
 
-    constructor(){
+    constructor() {
         super();
 
         this.state = {
@@ -23,8 +23,21 @@ class App extends React.Component{
 
     componentDidMount() {
         //open subscription (when user updated, firebase sends message, auth listening State Changes )
-        this.unsubscribeFromAuth = auth.onAuthStateChanged(async user => {
-            createUserProfileDocument(user)
+        this.unsubscribeFromAuth = auth.onAuthStateChanged(async userAuth => {
+            if (userAuth) {
+                const userRef = await createUserProfileDocument(userAuth);
+                //DocumentSnapshot allows to get properties of data
+                userRef.onSnapshot(snapshot => {
+                    this.setState({
+                        currentUser: {
+                            id: snapshot.id,
+                            ...snapshot.data()
+                        }
+                    })
+                });
+            } else {
+                this.setState({currentUser: userAuth});
+            }
         })
     }
 
