@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28191ebc-3086-460b-a8df-2439cb99be95" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/redux/root-reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/user/user.reducer.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/sign-in/SignIn.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sign-in/SignIn.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -100,7 +103,7 @@
       <workItem from="1566657533047" duration="1204000" />
       <workItem from="1568187704410" duration="2182000" />
       <workItem from="1574420300717" duration="4121000" />
-      <workItem from="1574670836890" duration="37590000" />
+      <workItem from="1574670836890" duration="40334000" />
     </task>
     <task id="LOCAL-00001" summary="init v1 web-store">
       <created>1565604854136</created>
@@ -221,7 +224,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574948165555</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="init v18 finished sign in handleSubmit method">
+      <created>1574949398069</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1574949398069</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -261,7 +271,8 @@
     <MESSAGE value="init v15 Storing User data in App functionality" />
     <MESSAGE value="init v16 Added Sign Up Component" />
     <MESSAGE value="init v17 added Sign Up functionality with Email and Name" />
-    <option name="LAST_COMMIT_MESSAGE" value="init v17 added Sign Up functionality with Email and Name" />
+    <MESSAGE value="init v18 finished sign in handleSubmit method" />
+    <option name="LAST_COMMIT_MESSAGE" value="init v18 finished sign in handleSubmit method" />
   </component>
   <component name="masterDetails">
     <states>
