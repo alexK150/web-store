@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28191ebc-3086-460b-a8df-2439cb99be95" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/redux/user/user.types.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/Header.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/Header.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/user/user.actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/user/user.actions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/user/user.reducer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/user/user.reducer.jsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -99,7 +102,7 @@
       <workItem from="1566657533047" duration="1204000" />
       <workItem from="1568187704410" duration="2182000" />
       <workItem from="1574420300717" duration="4121000" />
-      <workItem from="1574670836890" duration="43633000" />
+      <workItem from="1574670836890" duration="46919000" />
     </task>
     <task id="LOCAL-00001" summary="init v1 web-store">
       <created>1565604854136</created>
@@ -241,7 +244,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575038397822</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="init v20 +connect in Header Component">
+      <created>1575039098843</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1575039098843</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -284,7 +294,8 @@
     <MESSAGE value="init v18 finished sign in handleSubmit method" />
     <MESSAGE value="init v19 Added REDUX to project and user reducer" />
     <MESSAGE value="init v20 Added store &amp; user actions" />
-    <option name="LAST_COMMIT_MESSAGE" value="init v20 Added store &amp; user actions" />
+    <MESSAGE value="init v20 +connect in Header Component" />
+    <option name="LAST_COMMIT_MESSAGE" value="init v20 +connect in Header Component" />
   </component>
   <component name="masterDetails">
     <states>
