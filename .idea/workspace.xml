@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28191ebc-3086-460b-a8df-2439cb99be95" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/redux/user/user.types.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/shopping-bag.svg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/cart-icon/CartIcon.component.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/cart-icon/cart-icon.styles.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/user/user.actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/user/user.actions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/user/user.reducer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/user/user.reducer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/Header.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/Header.component.jsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,7 +29,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/custom-button" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/cart-icon" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="$PROJECT_DIR$/node_modules/eslint" />
@@ -40,18 +40,18 @@
     <property name="settings.editor.selected.configurable" value="stylesheet.code.style.group" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\FRONT-END\JS\Практика\learnProjects\web-store\src\components\custom-button" />
-      <recent name="D:\FRONT-END\JS\Практика\learnProjects\web-store\src\components\form-input" />
-      <recent name="D:\FRONT-END\JS\Практика\learnProjects\web-store\src\components\header" />
-      <recent name="D:\FRONT-END\JS\Практика\learnProjects\web-store\src\components\preview-collection" />
-      <recent name="D:\FRONT-END\JS\Практика\learnProjects\web-store\src\components\collection-item" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\FRONT-END\JS\Практика\learnProjects\web-store\src\assets" />
       <recent name="D:\FRONT-END\JS\Практика\learnProjects\web-store\src\pages\homepage" />
       <recent name="D:\FRONT-END\JS\Практика\learnProjects\web-store\src\components" />
       <recent name="D:\FRONT-END\JS\Практика\learnProjects\web-store\src\logo" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\FRONT-END\JS\Практика\learnProjects\web-store\src\components\cart-icon" />
+      <recent name="D:\FRONT-END\JS\Практика\learnProjects\web-store\src\components\custom-button" />
+      <recent name="D:\FRONT-END\JS\Практика\learnProjects\web-store\src\components\form-input" />
+      <recent name="D:\FRONT-END\JS\Практика\learnProjects\web-store\src\components\header" />
+      <recent name="D:\FRONT-END\JS\Практика\learnProjects\web-store\src\components\preview-collection" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -102,7 +102,8 @@
       <workItem from="1566657533047" duration="1204000" />
       <workItem from="1568187704410" duration="2182000" />
       <workItem from="1574420300717" duration="4121000" />
-      <workItem from="1574670836890" duration="46919000" />
+      <workItem from="1574670836890" duration="47624000" />
+      <workItem from="1575815748037" duration="1338000" />
     </task>
     <task id="LOCAL-00001" summary="init v1 web-store">
       <created>1565604854136</created>
@@ -251,7 +252,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575039098843</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="init v21 +User Redirect in case he signed in &amp; UserActionTypes">
+      <created>1575141769360</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1575141769360</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -295,7 +303,8 @@
     <MESSAGE value="init v19 Added REDUX to project and user reducer" />
     <MESSAGE value="init v20 Added store &amp; user actions" />
     <MESSAGE value="init v20 +connect in Header Component" />
-    <option name="LAST_COMMIT_MESSAGE" value="init v20 +connect in Header Component" />
+    <MESSAGE value="init v21 +User Redirect in case he signed in &amp; UserActionTypes" />
+    <option name="LAST_COMMIT_MESSAGE" value="init v21 +User Redirect in case he signed in &amp; UserActionTypes" />
   </component>
   <component name="masterDetails">
     <states>
