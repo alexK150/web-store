@@ -4,10 +4,10 @@
     <list default="true" id="28191ebc-3086-460b-a8df-2439cb99be95" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/collection-item/CollectionItem.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/collection-item/CollectionItem.component.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/collection-item/collection-item.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/collection-item/collection-item.styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/custom-button/CustomButton.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/custom-button/CustomButton.component.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/custom-button/custom-button.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/custom-button/custom-button.styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/Header.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/Header.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/preview-collection/PreviewCollection.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/preview-collection/PreviewCollection.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/cart/cart.actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/cart/cart.actions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/cart/cart.reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/cart/cart.reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/cart/cart.types.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/cart/cart.types.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -107,7 +107,7 @@
       <workItem from="1575815748037" duration="3756000" />
       <workItem from="1575898776282" duration="90000" />
       <workItem from="1576485729937" duration="21000" />
-      <workItem from="1576581949650" duration="2128000" />
+      <workItem from="1576581949650" duration="4144000" />
     </task>
     <task id="LOCAL-00001" summary="init v1 web-store">
       <created>1565604854136</created>
@@ -284,7 +284,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575898844965</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="init v25 Cart styling">
+      <created>1576584116392</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1576584116392</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -307,7 +314,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="init v1 web-store" />
     <MESSAGE value="init v2 refactoring: js-&gt;jsx, style, component" />
     <MESSAGE value="init v3 +Routing" />
     <MESSAGE value="init v4 Updated MenuItem navigation by withRouter HOC" />
@@ -332,7 +338,8 @@
     <MESSAGE value="init v22 CartIcon Component added" />
     <MESSAGE value="init v23 CartDropdown(for pop-up) Component added" />
     <MESSAGE value="init v24 Cart reducer? actions and types" />
-    <option name="LAST_COMMIT_MESSAGE" value="init v24 Cart reducer? actions and types" />
+    <MESSAGE value="init v25 Cart styling" />
+    <option name="LAST_COMMIT_MESSAGE" value="init v25 Cart styling" />
   </component>
   <component name="masterDetails">
     <states>
