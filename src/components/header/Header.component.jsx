@@ -3,8 +3,8 @@ import {Link} from 'react-router-dom';
 import {ReactComponent as Logo} from '../../assets/shopping.svg';
 import {auth} from '../../firebase/firebase.utils';
 import {connect} from 'react-redux';
-import CartIcon from "../cart-icon/CartIcon.component";
-import CartDropdown from "../cart-dropdown/CartDropdown.component";
+import CartIcon from '../cart-icon/CartIcon.component';
+import CartDropdown from '../cart-dropdown/CartDropdown.component';
 
 import './header.styles.scss'
 
