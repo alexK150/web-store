@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28191ebc-3086-460b-a8df-2439cb99be95" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/pages/shop/shop.data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/cart/cart.utils.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/collection-item/CollectionItem.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/collection-item/CollectionItem.component.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/preview-collection/PreviewCollection.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/preview-collection/PreviewCollection.component.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/cart/cart.actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/cart/cart.actions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/shop/Shop.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/shop/Shop.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/shop/shop-data.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/cart/cart.reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/cart/cart.reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/cart/cart.types.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/cart/cart.types.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,7 +30,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/cart-dropdown" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/pages/shop" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="$PROJECT_DIR$/node_modules/eslint" />
@@ -41,18 +41,18 @@
     <property name="settings.editor.selected.configurable" value="stylesheet.code.style.group" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\FRONT-END\JS\Практика\learnProjects\web-store\src\pages\shop" />
+      <recent name="D:\FRONT-END\JS\Практика\learnProjects\web-store\src\components\cart-dropdown" />
+      <recent name="D:\FRONT-END\JS\Практика\learnProjects\web-store\src\components\cart-icon" />
+      <recent name="D:\FRONT-END\JS\Практика\learnProjects\web-store\src\components\custom-button" />
+      <recent name="D:\FRONT-END\JS\Практика\learnProjects\web-store\src\components\form-input" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\FRONT-END\JS\Практика\learnProjects\web-store\src\assets" />
       <recent name="D:\FRONT-END\JS\Практика\learnProjects\web-store\src\pages\homepage" />
       <recent name="D:\FRONT-END\JS\Практика\learnProjects\web-store\src\components" />
       <recent name="D:\FRONT-END\JS\Практика\learnProjects\web-store\src\logo" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\FRONT-END\JS\Практика\learnProjects\web-store\src\components\cart-dropdown" />
-      <recent name="D:\FRONT-END\JS\Практика\learnProjects\web-store\src\components\cart-icon" />
-      <recent name="D:\FRONT-END\JS\Практика\learnProjects\web-store\src\components\custom-button" />
-      <recent name="D:\FRONT-END\JS\Практика\learnProjects\web-store\src\components\form-input" />
-      <recent name="D:\FRONT-END\JS\Практика\learnProjects\web-store\src\components\header" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -107,7 +107,8 @@
       <workItem from="1575815748037" duration="3756000" />
       <workItem from="1575898776282" duration="90000" />
       <workItem from="1576485729937" duration="21000" />
-      <workItem from="1576581949650" duration="4144000" />
+      <workItem from="1576581949650" duration="4860000" />
+      <workItem from="1576671482988" duration="1859000" />
     </task>
     <task id="LOCAL-00001" summary="init v1 web-store">
       <created>1565604854136</created>
@@ -291,7 +292,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576584116392</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="init v26 Added Cart Item reducer with all Redux data flow">
+      <created>1576587858418</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1576587858418</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -314,7 +322,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="init v2 refactoring: js-&gt;jsx, style, component" />
     <MESSAGE value="init v3 +Routing" />
     <MESSAGE value="init v4 Updated MenuItem navigation by withRouter HOC" />
     <MESSAGE value="init v5 +ShopPage &amp; PreviewCollection components" />
@@ -339,7 +346,8 @@
     <MESSAGE value="init v23 CartDropdown(for pop-up) Component added" />
     <MESSAGE value="init v24 Cart reducer? actions and types" />
     <MESSAGE value="init v25 Cart styling" />
-    <option name="LAST_COMMIT_MESSAGE" value="init v25 Cart styling" />
+    <MESSAGE value="init v26 Added Cart Item reducer with all Redux data flow" />
+    <option name="LAST_COMMIT_MESSAGE" value="init v26 Added Cart Item reducer with all Redux data flow" />
   </component>
   <component name="masterDetails">
     <states>
