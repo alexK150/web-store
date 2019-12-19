@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28191ebc-3086-460b-a8df-2439cb99be95" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/redux/cart/cart.selectors.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/user/user.selectors.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/cart-dropdown/CartDropdown.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cart-dropdown/CartDropdown.component.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/cart-icon/CartIcon.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cart-icon/CartIcon.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/Header.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/Header.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/cart/cart.selectors.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/cart/cart.selectors.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -108,7 +109,7 @@
       <workItem from="1575898776282" duration="90000" />
       <workItem from="1576485729937" duration="21000" />
       <workItem from="1576581949650" duration="4860000" />
-      <workItem from="1576671482988" duration="7593000" />
+      <workItem from="1576671482988" duration="10418000" />
     </task>
     <task id="LOCAL-00001" summary="init v1 web-store">
       <created>1565604854136</created>
@@ -313,7 +314,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576674692120</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="init v29 updated app with reselect, replaced cart selectors with memoized selectors">
+      <created>1576750464576</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1576750464576</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -336,7 +344,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="init v5 +ShopPage &amp; PreviewCollection components" />
     <MESSAGE value="init v6 updated app with CollectionItem Component &amp; PreviewCollection Component" />
     <MESSAGE value="init v7 added Header Component &amp; links to Home Shop page and Home" />
     <MESSAGE value="init v8 added SignIn Component &amp; SignInAndSignUp page" />
@@ -361,7 +368,8 @@
     <MESSAGE value="init v26 Added Cart Item reducer with all Redux data flow" />
     <MESSAGE value="init v27 updated cart utils to group items in cart reducer, updated shop data with new data" />
     <MESSAGE value="init v28 created cart item component and connected to cart dropdown to cartItem reducer" />
-    <option name="LAST_COMMIT_MESSAGE" value="init v28 created cart item component and connected to cart dropdown to cartItem reducer" />
+    <MESSAGE value="init v29 updated app with reselect, replaced cart selectors with memoized selectors" />
+    <option name="LAST_COMMIT_MESSAGE" value="init v29 updated app with reselect, replaced cart selectors with memoized selectors" />
   </component>
   <component name="masterDetails">
     <states>
