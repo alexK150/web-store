@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28191ebc-3086-460b-a8df-2439cb99be95" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/checkout-item/CheckoutItem.component.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/checkout-item/checkout-item.styles.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/checkout/checkout.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/checkout/checkout.component.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/checkout/checkout.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/checkout/checkout.styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/cart/cart.selectors.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/cart/cart.selectors.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/cart-dropdown/CartDropdown.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cart-dropdown/CartDropdown.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/checkout/checkout.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/checkout/Checkout.component.jsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,7 +30,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/pages/checkout" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/checkout-item" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="$PROJECT_DIR$/node_modules/eslint" />
@@ -46,11 +48,11 @@
       <recent name="D:\FRONT-END\JS\Практика\learnProjects\web-store\src\logo" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\FRONT-END\JS\Практика\learnProjects\web-store\src\components\checkout-item" />
       <recent name="D:\FRONT-END\JS\Практика\learnProjects\web-store\src\pages\checkout" />
       <recent name="D:\FRONT-END\JS\Практика\learnProjects\web-store\src\components\cart-item" />
       <recent name="D:\FRONT-END\JS\Практика\learnProjects\web-store\src\pages\shop" />
       <recent name="D:\FRONT-END\JS\Практика\learnProjects\web-store\src\components\cart-dropdown" />
-      <recent name="D:\FRONT-END\JS\Практика\learnProjects\web-store\src\components\cart-icon" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -107,7 +109,7 @@
       <workItem from="1576485729937" duration="21000" />
       <workItem from="1576581949650" duration="4860000" />
       <workItem from="1576671482988" duration="11158000" />
-      <workItem from="1577026450753" duration="3276000" />
+      <workItem from="1577026450753" duration="6245000" />
     </task>
     <task id="LOCAL-00001" summary="init v1 web-store">
       <created>1565604854136</created>
@@ -333,7 +335,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577027865776</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="init v32 updated checkout page functionality with redux added: total item count and name of items">
+      <created>1577031081364</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1577031081364</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -356,7 +365,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="init v8 added SignIn Component &amp; SignInAndSignUp page" />
     <MESSAGE value="init v9 added FormInput Component &amp; styles for it" />
     <MESSAGE value="init v10 added CustomButton Component &amp; styles for it" />
     <MESSAGE value="init v11 Sign In with Google functionality added" />
@@ -381,7 +389,8 @@
     <MESSAGE value="init v29 updated app with reselect, replaced cart selectors with memoized selectors" />
     <MESSAGE value="init v30 added user selector" />
     <MESSAGE value="init v31 added Cart check out page" />
-    <option name="LAST_COMMIT_MESSAGE" value="init v31 added Cart check out page" />
+    <MESSAGE value="init v32 updated checkout page functionality with redux added: total item count and name of items" />
+    <option name="LAST_COMMIT_MESSAGE" value="init v32 updated checkout page functionality with redux added: total item count and name of items" />
   </component>
   <component name="masterDetails">
     <states>
