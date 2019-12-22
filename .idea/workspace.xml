@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28191ebc-3086-460b-a8df-2439cb99be95" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/pages/checkout/checkout.component.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/checkout/checkout.styles.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/cart-dropdown/CartDropdown.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cart-dropdown/CartDropdown.component.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/cart-dropdown/cart-dropdown.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cart-dropdown/cart-dropdown.styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/checkout/checkout.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/checkout/checkout.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/checkout/checkout.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/checkout/checkout.styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/cart/cart.selectors.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/cart/cart.selectors.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,7 +28,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/cart-item" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/pages/checkout" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="$PROJECT_DIR$/node_modules/eslint" />
@@ -41,18 +39,18 @@
     <property name="settings.editor.selected.configurable" value="stylesheet.code.style.group" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\FRONT-END\JS\Практика\learnProjects\web-store\src\components\cart-item" />
-      <recent name="D:\FRONT-END\JS\Практика\learnProjects\web-store\src\pages\shop" />
-      <recent name="D:\FRONT-END\JS\Практика\learnProjects\web-store\src\components\cart-dropdown" />
-      <recent name="D:\FRONT-END\JS\Практика\learnProjects\web-store\src\components\cart-icon" />
-      <recent name="D:\FRONT-END\JS\Практика\learnProjects\web-store\src\components\custom-button" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\FRONT-END\JS\Практика\learnProjects\web-store\src\assets" />
       <recent name="D:\FRONT-END\JS\Практика\learnProjects\web-store\src\pages\homepage" />
       <recent name="D:\FRONT-END\JS\Практика\learnProjects\web-store\src\components" />
       <recent name="D:\FRONT-END\JS\Практика\learnProjects\web-store\src\logo" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\FRONT-END\JS\Практика\learnProjects\web-store\src\pages\checkout" />
+      <recent name="D:\FRONT-END\JS\Практика\learnProjects\web-store\src\components\cart-item" />
+      <recent name="D:\FRONT-END\JS\Практика\learnProjects\web-store\src\pages\shop" />
+      <recent name="D:\FRONT-END\JS\Практика\learnProjects\web-store\src\components\cart-dropdown" />
+      <recent name="D:\FRONT-END\JS\Практика\learnProjects\web-store\src\components\cart-icon" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -109,7 +107,7 @@
       <workItem from="1576485729937" duration="21000" />
       <workItem from="1576581949650" duration="4860000" />
       <workItem from="1576671482988" duration="11158000" />
-      <workItem from="1577026450753" duration="1210000" />
+      <workItem from="1577026450753" duration="3276000" />
     </task>
     <task id="LOCAL-00001" summary="init v1 web-store">
       <created>1565604854136</created>
@@ -328,7 +326,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576766423666</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="init v31 added Cart check out page">
+      <created>1577027865776</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1577027865776</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -351,7 +356,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="init v7 added Header Component &amp; links to Home Shop page and Home" />
     <MESSAGE value="init v8 added SignIn Component &amp; SignInAndSignUp page" />
     <MESSAGE value="init v9 added FormInput Component &amp; styles for it" />
     <MESSAGE value="init v10 added CustomButton Component &amp; styles for it" />
@@ -376,7 +380,8 @@
     <MESSAGE value="init v28 created cart item component and connected to cart dropdown to cartItem reducer" />
     <MESSAGE value="init v29 updated app with reselect, replaced cart selectors with memoized selectors" />
     <MESSAGE value="init v30 added user selector" />
-    <option name="LAST_COMMIT_MESSAGE" value="init v30 added user selector" />
+    <MESSAGE value="init v31 added Cart check out page" />
+    <option name="LAST_COMMIT_MESSAGE" value="init v31 added Cart check out page" />
   </component>
   <component name="masterDetails">
     <states>
