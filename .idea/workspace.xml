@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28191ebc-3086-460b-a8df-2439cb99be95" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/checkout-item/CheckoutItem.component.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/checkout-item/checkout-item.styles.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/cart-dropdown/CartDropdown.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cart-dropdown/CartDropdown.component.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/checkout/checkout.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/checkout/Checkout.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/checkout-item/CheckoutItem.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/checkout-item/CheckoutItem.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/cart/cart.actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/cart/cart.actions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/cart/cart.reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/cart/cart.reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/cart/cart.types.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/cart/cart.types.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -109,7 +108,9 @@
       <workItem from="1576485729937" duration="21000" />
       <workItem from="1576581949650" duration="4860000" />
       <workItem from="1576671482988" duration="11158000" />
-      <workItem from="1577026450753" duration="6245000" />
+      <workItem from="1577026450753" duration="7736000" />
+      <workItem from="1577101162412" duration="962000" />
+      <workItem from="1577108219347" duration="896000" />
     </task>
     <task id="LOCAL-00001" summary="init v1 web-store">
       <created>1565604854136</created>
@@ -342,7 +343,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577031081364</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="init v33 added checkout item component">
+      <created>1577044203214</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1577044203214</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -365,7 +373,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="init v9 added FormInput Component &amp; styles for it" />
     <MESSAGE value="init v10 added CustomButton Component &amp; styles for it" />
     <MESSAGE value="init v11 Sign In with Google functionality added" />
     <MESSAGE value="init v12 Authentication with Google account done" />
@@ -390,7 +397,8 @@
     <MESSAGE value="init v30 added user selector" />
     <MESSAGE value="init v31 added Cart check out page" />
     <MESSAGE value="init v32 updated checkout page functionality with redux added: total item count and name of items" />
-    <option name="LAST_COMMIT_MESSAGE" value="init v32 updated checkout page functionality with redux added: total item count and name of items" />
+    <MESSAGE value="init v33 added checkout item component" />
+    <option name="LAST_COMMIT_MESSAGE" value="init v33 added checkout item component" />
   </component>
   <component name="masterDetails">
     <states>
