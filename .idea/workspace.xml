@@ -3,12 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="28191ebc-3086-460b-a8df-2439cb99be95" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/checkout-item/CheckoutItem.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/checkout-item/CheckoutItem.component.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/checkout-item/checkout-item.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/checkout-item/checkout-item.styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/cart/cart.actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/cart/cart.actions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/cart/cart.reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/cart/cart.reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/cart/cart.types.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/cart/cart.types.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/cart/cart.utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/cart/cart.utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/root-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/root-reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/store.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -112,7 +111,7 @@
       <workItem from="1576671482988" duration="11158000" />
       <workItem from="1577026450753" duration="7736000" />
       <workItem from="1577101162412" duration="962000" />
-      <workItem from="1577108219347" duration="2976000" />
+      <workItem from="1577108219347" duration="7449000" />
     </task>
     <task id="LOCAL-00001" summary="init v1 web-store">
       <created>1565604854136</created>
@@ -359,7 +358,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577111020176</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="init v35 updated add &amp; remove items functionality to checkout component">
+      <created>1577113021996</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1577113021996</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -382,7 +388,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="init v11 Sign In with Google functionality added" />
     <MESSAGE value="init v12 Authentication with Google account done" />
     <MESSAGE value="init v13 styling Custom button for Google, sign out functionality through header" />
     <MESSAGE value="init v14 Storing data in DB functionality" />
@@ -407,7 +412,8 @@
     <MESSAGE value="init v32 updated checkout page functionality with redux added: total item count and name of items" />
     <MESSAGE value="init v33 added checkout item component" />
     <MESSAGE value="init v34 added remove items functionality" />
-    <option name="LAST_COMMIT_MESSAGE" value="init v34 added remove items functionality" />
+    <MESSAGE value="init v35 updated add &amp; remove items functionality to checkout component" />
+    <option name="LAST_COMMIT_MESSAGE" value="init v35 updated add &amp; remove items functionality to checkout component" />
   </component>
   <component name="masterDetails">
     <states>
