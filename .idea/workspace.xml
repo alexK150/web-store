@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28191ebc-3086-460b-a8df-2439cb99be95" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/redux/main-menu/main-menu.reducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/main-menu/main-menu.selectors.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/shop/shop.reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/shop/shop.selectors.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/mainmenu/MainMenu.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/mainmenu/MainMenu.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/shop/Shop.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/shop/Shop.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/shop/shop.data.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/shop/shop.data.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/root-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/root-reducer.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,18 +41,19 @@
     <property name="settings.editor.selected.configurable" value="stylesheet.code.style.group" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\FRONT-END\JS\Практика\learnProjects\web-store\src\assets" />
-      <recent name="D:\FRONT-END\JS\Практика\learnProjects\web-store\src\pages\homepage" />
-      <recent name="D:\FRONT-END\JS\Практика\learnProjects\web-store\src\components" />
-      <recent name="D:\FRONT-END\JS\Практика\learnProjects\web-store\src\logo" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\FRONT-END\JS\Практика\learnProjects\web-store\src\components\checkout-item" />
       <recent name="D:\FRONT-END\JS\Практика\learnProjects\web-store\src\pages\checkout" />
       <recent name="D:\FRONT-END\JS\Практика\learnProjects\web-store\src\components\cart-item" />
       <recent name="D:\FRONT-END\JS\Практика\learnProjects\web-store\src\pages\shop" />
       <recent name="D:\FRONT-END\JS\Практика\learnProjects\web-store\src\components\cart-dropdown" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\FRONT-END\JS\Практика\learnProjects\web-store\src\redux\shop" />
+      <recent name="D:\FRONT-END\JS\Практика\learnProjects\web-store\src\assets" />
+      <recent name="D:\FRONT-END\JS\Практика\learnProjects\web-store\src\pages\homepage" />
+      <recent name="D:\FRONT-END\JS\Практика\learnProjects\web-store\src\components" />
+      <recent name="D:\FRONT-END\JS\Практика\learnProjects\web-store\src\logo" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -110,7 +112,7 @@
       <workItem from="1576671482988" duration="11158000" />
       <workItem from="1577026450753" duration="7736000" />
       <workItem from="1577101162412" duration="962000" />
-      <workItem from="1577108219347" duration="10301000" />
+      <workItem from="1577108219347" duration="14387000" />
     </task>
     <task id="LOCAL-00001" summary="init v1 web-store">
       <created>1565604854136</created>
@@ -371,7 +373,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577202287099</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="init v37 converted Main Menu to functional component, relocated state from main menu component to redux folder">
+      <created>1577271618730</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1577271618730</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -394,7 +403,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="init v13 styling Custom button for Google, sign out functionality through header" />
     <MESSAGE value="init v14 Storing data in DB functionality" />
     <MESSAGE value="init v15 Storing User data in App functionality" />
     <MESSAGE value="init v16 Added Sign Up Component" />
@@ -419,7 +427,8 @@
     <MESSAGE value="init v34 added remove items functionality" />
     <MESSAGE value="init v35 updated add &amp; remove items functionality to checkout component" />
     <MESSAGE value="init v36 app updated with redux persist functionality" />
-    <option name="LAST_COMMIT_MESSAGE" value="init v36 app updated with redux persist functionality" />
+    <MESSAGE value="init v37 converted Main Menu to functional component, relocated state from main menu component to redux folder" />
+    <option name="LAST_COMMIT_MESSAGE" value="init v37 converted Main Menu to functional component, relocated state from main menu component to redux folder" />
   </component>
   <component name="masterDetails">
     <states>
