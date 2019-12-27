@@ -2,15 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28191ebc-3086-460b-a8df-2439cb99be95" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/payment.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/stripe-btn/StripeBtn.component.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/basket.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/collections-overview/CollectionsOverview.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/collections-overview/CollectionsOverview.component.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/checkout/Checkout.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/checkout/Checkout.component.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/checkout/checkout.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/checkout/checkout.styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/shop/shop.selectors.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/shop/shop.selectors.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/cart-dropdown/cart-dropdown.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cart-dropdown/cart-dropdown.styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/collection-item/CollectionItem.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/collection-item/CollectionItem.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/collection-item/collection-item.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/collection-item/collection-item.styles.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,7 +31,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/pages/collection" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="$PROJECT_DIR$/node_modules/eslint" />
@@ -45,11 +43,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\FRONT-END\JS\Практика\learnProjects\web-store\public" />
       <recent name="D:\FRONT-END\JS\Практика\learnProjects\web-store\src\pages\collection" />
       <recent name="D:\FRONT-END\JS\Практика\learnProjects\web-store\src\components\checkout-item" />
       <recent name="D:\FRONT-END\JS\Практика\learnProjects\web-store\src\pages\checkout" />
       <recent name="D:\FRONT-END\JS\Практика\learnProjects\web-store\src\components\cart-item" />
-      <recent name="D:\FRONT-END\JS\Практика\learnProjects\web-store\src\pages\shop" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\FRONT-END\JS\Практика\learnProjects\web-store\src\assets" />
@@ -115,7 +113,7 @@
       <workItem from="1576671482988" duration="11158000" />
       <workItem from="1577026450753" duration="7736000" />
       <workItem from="1577101162412" duration="962000" />
-      <workItem from="1577108219347" duration="29090000" />
+      <workItem from="1577108219347" duration="33075000" />
     </task>
     <task id="LOCAL-00001" summary="init v1 web-store">
       <created>1565604854136</created>
@@ -411,7 +409,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577442485188</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="init v42 Stripe integration for the payment system">
+      <created>1577448550399</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1577448550399</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -426,6 +431,17 @@
         <entry key="MAIN">
           <value>
             <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="text">
+                    <value>
+                      <list>
+                        <option value="firebase" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
               <option name="COLUMN_ORDER" />
             </State>
           </value>
@@ -434,7 +450,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="init v18 finished sign in handleSubmit method" />
     <MESSAGE value="init v19 Added REDUX to project and user reducer" />
     <MESSAGE value="init v20 Added store &amp; user actions" />
     <MESSAGE value="init v20 +connect in Header Component" />
@@ -459,7 +474,8 @@
     <MESSAGE value="init v39 Collection Overview Component added, Firebase disabled" />
     <MESSAGE value="init v40 Collection component added" />
     <MESSAGE value="init v41 Normalization of Collections, updated styling of collection-item component" />
-    <option name="LAST_COMMIT_MESSAGE" value="init v41 Normalization of Collections, updated styling of collection-item component" />
+    <MESSAGE value="init v42 Stripe integration for the payment system" />
+    <option name="LAST_COMMIT_MESSAGE" value="init v42 Stripe integration for the payment system" />
   </component>
   <component name="masterDetails">
     <states>
