@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28191ebc-3086-460b-a8df-2439cb99be95" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/assets/payment.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/stripe-btn/StripeBtn.component.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/collection-item/collection-item.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/collection-item/collection-item.styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/collection/Collection.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/collection/Collection.component.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/main-menu/main-menu.reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/main-menu/main-menu.reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/shop/shop.data.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/shop/shop.data.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/collections-overview/CollectionsOverview.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/collections-overview/CollectionsOverview.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/checkout/Checkout.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/checkout/Checkout.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/checkout/checkout.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/checkout/checkout.styles.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/shop/shop.selectors.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/shop/shop.selectors.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -49,8 +52,8 @@
       <recent name="D:\FRONT-END\JS\Практика\learnProjects\web-store\src\pages\shop" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\FRONT-END\JS\Практика\learnProjects\web-store\src\redux\shop" />
       <recent name="D:\FRONT-END\JS\Практика\learnProjects\web-store\src\assets" />
+      <recent name="D:\FRONT-END\JS\Практика\learnProjects\web-store\src\redux\shop" />
       <recent name="D:\FRONT-END\JS\Практика\learnProjects\web-store\src\pages\homepage" />
       <recent name="D:\FRONT-END\JS\Практика\learnProjects\web-store\src\components" />
       <recent name="D:\FRONT-END\JS\Практика\learnProjects\web-store\src\logo" />
@@ -112,7 +115,7 @@
       <workItem from="1576671482988" duration="11158000" />
       <workItem from="1577026450753" duration="7736000" />
       <workItem from="1577101162412" duration="962000" />
-      <workItem from="1577108219347" duration="24286000" />
+      <workItem from="1577108219347" duration="29090000" />
     </task>
     <task id="LOCAL-00001" summary="init v1 web-store">
       <created>1565604854136</created>
@@ -401,7 +404,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577439503560</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="init v41 Normalization of Collections, updated styling of collection-item component">
+      <created>1577442485188</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1577442485188</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -424,7 +434,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="init v17 added Sign Up functionality with Email and Name" />
     <MESSAGE value="init v18 finished sign in handleSubmit method" />
     <MESSAGE value="init v19 Added REDUX to project and user reducer" />
     <MESSAGE value="init v20 Added store &amp; user actions" />
@@ -449,7 +458,8 @@
     <MESSAGE value="init v38 converted Shop to functional component, relocated state to redux folder" />
     <MESSAGE value="init v39 Collection Overview Component added, Firebase disabled" />
     <MESSAGE value="init v40 Collection component added" />
-    <option name="LAST_COMMIT_MESSAGE" value="init v40 Collection component added" />
+    <MESSAGE value="init v41 Normalization of Collections, updated styling of collection-item component" />
+    <option name="LAST_COMMIT_MESSAGE" value="init v41 Normalization of Collections, updated styling of collection-item component" />
   </component>
   <component name="masterDetails">
     <states>
