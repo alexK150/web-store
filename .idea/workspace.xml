@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28191ebc-3086-460b-a8df-2439cb99be95" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/pages/collection/Collection.component.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/collection/collection.styles.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/shop/Shop.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/shop/Shop.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/collection-item/collection-item.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/collection-item/collection-item.styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/collection/Collection.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/collection/Collection.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/main-menu/main-menu.reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/main-menu/main-menu.reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/shop/shop.data.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/shop/shop.data.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/shop/shop.selectors.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/shop/shop.selectors.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -111,7 +112,7 @@
       <workItem from="1576671482988" duration="11158000" />
       <workItem from="1577026450753" duration="7736000" />
       <workItem from="1577101162412" duration="962000" />
-      <workItem from="1577108219347" duration="22035000" />
+      <workItem from="1577108219347" duration="24286000" />
     </task>
     <task id="LOCAL-00001" summary="init v1 web-store">
       <created>1565604854136</created>
@@ -393,7 +394,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577433542922</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="init v40 Collection component added">
+      <created>1577439503560</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1577439503560</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -416,7 +424,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="init v16 Added Sign Up Component" />
     <MESSAGE value="init v17 added Sign Up functionality with Email and Name" />
     <MESSAGE value="init v18 finished sign in handleSubmit method" />
     <MESSAGE value="init v19 Added REDUX to project and user reducer" />
@@ -441,7 +448,8 @@
     <MESSAGE value="init v37 converted Main Menu to functional component, relocated state from main menu component to redux folder" />
     <MESSAGE value="init v38 converted Shop to functional component, relocated state to redux folder" />
     <MESSAGE value="init v39 Collection Overview Component added, Firebase disabled" />
-    <option name="LAST_COMMIT_MESSAGE" value="init v39 Collection Overview Component added, Firebase disabled" />
+    <MESSAGE value="init v40 Collection component added" />
+    <option name="LAST_COMMIT_MESSAGE" value="init v40 Collection component added" />
   </component>
   <component name="masterDetails">
     <states>
