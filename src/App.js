@@ -19,29 +19,29 @@ class App extends React.Component {
     //closing subscription when component unmount
     unsubscribeFromAuth = null;
 
-    componentDidMount() {
-        const {setCurrentUser} = this.props;
-        //open subscription (when user updated, firebase sends message, auth listening State Changes )
-        this.unsubscribeFromAuth = auth.onAuthStateChanged(async userAuth => {
-            if (userAuth) {
-                const userRef = await createUserProfileDocument(userAuth);
-                //DocumentSnapshot allows to get properties of data
-                userRef.onSnapshot(snapshot => {
-                    this.props.setCurrentUser({
-                        id: snapshot.id,
-                        ...snapshot.data()
-                    });
-                });
-            } else {
-                setCurrentUser(userAuth);
-            }
-        })
-    }
+    // componentDidMount() {
+    //     const {setCurrentUser} = this.props;
+    //     //open subscription (when user updated, firebase sends message, auth listening State Changes )
+    //     this.unsubscribeFromAuth = auth.onAuthStateChanged(async userAuth => {
+    //         if (userAuth) {
+    //             const userRef = await createUserProfileDocument(userAuth);
+    //             //DocumentSnapshot allows to get properties of data
+    //             userRef.onSnapshot(snapshot => {
+    //                 this.props.setCurrentUser({
+    //                     id: snapshot.id,
+    //                     ...snapshot.data()
+    //                 });
+    //             });
+    //         } else {
+    //             setCurrentUser(userAuth);
+    //         }
+    //     })
+    // }
 
     //actual closing of subscription
-    componentWillUnmount() {
-        this.unsubscribeFromAuth();
-    }
+    // componentWillUnmount() {
+    //     this.unsubscribeFromAuth();
+    // }
 
     render() {
         return (
