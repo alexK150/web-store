@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28191ebc-3086-460b-a8df-2439cb99be95" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/basket.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/cart-dropdown/cart-dropdown.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cart-dropdown/cart-dropdown.styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/collection-item/CollectionItem.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/collection-item/CollectionItem.component.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/collection-item/collection-item.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/collection-item/collection-item.styles.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -113,7 +107,7 @@
       <workItem from="1576671482988" duration="11158000" />
       <workItem from="1577026450753" duration="7736000" />
       <workItem from="1577101162412" duration="962000" />
-      <workItem from="1577108219347" duration="33075000" />
+      <workItem from="1577108219347" duration="35277000" />
     </task>
     <task id="LOCAL-00001" summary="init v1 web-store">
       <created>1565604854136</created>
@@ -416,7 +410,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577448550399</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="init v43 Ready for first deploy">
+      <created>1577455082544</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1577455082544</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -450,7 +451,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="init v19 Added REDUX to project and user reducer" />
     <MESSAGE value="init v20 Added store &amp; user actions" />
     <MESSAGE value="init v20 +connect in Header Component" />
     <MESSAGE value="init v21 +User Redirect in case he signed in &amp; UserActionTypes" />
@@ -475,7 +475,8 @@
     <MESSAGE value="init v40 Collection component added" />
     <MESSAGE value="init v41 Normalization of Collections, updated styling of collection-item component" />
     <MESSAGE value="init v42 Stripe integration for the payment system" />
-    <option name="LAST_COMMIT_MESSAGE" value="init v42 Stripe integration for the payment system" />
+    <MESSAGE value="init v43 Ready for first deploy" />
+    <option name="LAST_COMMIT_MESSAGE" value="init v43 Ready for first deploy" />
   </component>
   <component name="masterDetails">
     <states>
