@@ -115,7 +115,7 @@
       <workItem from="1577872622840" duration="7274000" />
       <workItem from="1578318549425" duration="200000" />
       <workItem from="1578336826058" duration="726000" />
-      <workItem from="1578386982501" duration="1994000" />
+      <workItem from="1578386982501" duration="5078000" />
     </task>
     <task id="LOCAL-00001" summary="init v1 web-store">
       <created>1565604854136</created>
@@ -432,7 +432,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577879615894</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="init v45 moved shop data to firebase">
+      <created>1578389614611</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1578389614612</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -466,7 +473,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="init v20 +connect in Header Component" />
     <MESSAGE value="init v21 +User Redirect in case he signed in &amp; UserActionTypes" />
     <MESSAGE value="init v22 CartIcon Component added" />
     <MESSAGE value="init v23 CartDropdown(for pop-up) Component added" />
@@ -491,7 +497,8 @@
     <MESSAGE value="init v42 Stripe integration for the payment system" />
     <MESSAGE value="init v43 Ready for first deploy" />
     <MESSAGE value="init v44 updated HomePage, Header and CustomButton components with styled-component library" />
-    <option name="LAST_COMMIT_MESSAGE" value="init v44 updated HomePage, Header and CustomButton components with styled-component library" />
+    <MESSAGE value="init v45 moved shop data to firebase" />
+    <option name="LAST_COMMIT_MESSAGE" value="init v45 moved shop data to firebase" />
   </component>
   <component name="masterDetails">
     <states>
