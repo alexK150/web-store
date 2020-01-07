@@ -2,17 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28191ebc-3086-460b-a8df-2439cb99be95" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/custom-button/custom-button.styles.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/header/header.styles.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/homepage/homepage.styles.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/custom-button/CustomButton.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/custom-button/CustomButton.component.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/Header.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/Header.component.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/homepage/Homepage.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/homepage/Homepage.component.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/homepage/homepage.styles.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/firebase/firebase.utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/firebase/firebase.utils.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -120,7 +112,10 @@
       <workItem from="1577108219347" duration="35277000" />
       <workItem from="1577518112480" duration="702000" />
       <workItem from="1577694573942" duration="747000" />
-      <workItem from="1577872622840" duration="6569000" />
+      <workItem from="1577872622840" duration="7274000" />
+      <workItem from="1578318549425" duration="200000" />
+      <workItem from="1578336826058" duration="726000" />
+      <workItem from="1578386982501" duration="1994000" />
     </task>
     <task id="LOCAL-00001" summary="init v1 web-store">
       <created>1565604854136</created>
@@ -430,7 +425,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577455082544</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="init v44 updated HomePage, Header and CustomButton components with styled-component library">
+      <created>1577879615894</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1577879615894</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -464,7 +466,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="init v20 Added store &amp; user actions" />
     <MESSAGE value="init v20 +connect in Header Component" />
     <MESSAGE value="init v21 +User Redirect in case he signed in &amp; UserActionTypes" />
     <MESSAGE value="init v22 CartIcon Component added" />
@@ -489,7 +490,8 @@
     <MESSAGE value="init v41 Normalization of Collections, updated styling of collection-item component" />
     <MESSAGE value="init v42 Stripe integration for the payment system" />
     <MESSAGE value="init v43 Ready for first deploy" />
-    <option name="LAST_COMMIT_MESSAGE" value="init v43 Ready for first deploy" />
+    <MESSAGE value="init v44 updated HomePage, Header and CustomButton components with styled-component library" />
+    <option name="LAST_COMMIT_MESSAGE" value="init v44 updated HomePage, Header and CustomButton components with styled-component library" />
   </component>
   <component name="masterDetails">
     <states>
